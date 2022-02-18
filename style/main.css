@@ -1,0 +1,96 @@
+body{
+    background-color: #141414c7;
+    font-family:'Times New Roman', times, serif;
+    color: cornsilk;
+    
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+      margin-left: 5px;
+      color:#8B0000;
+      font-family: 'Ariel Black', times;
+      font-size: 40px;
+      text-shadow: 4px, 4px black;
+}
+
+header nav a {
+    text-decoration: none;
+    color: burlywood;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:rgba(170, 170, 170, 0.856);
+}
+
+.Filme-principal{
+    font-size: 30px;
+    background-image: url("../img/capa2.jpg");
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Filme-principal .Descricao{
+    margin-bottom: 50px;
+    
+}
+
+.Titulo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: black;
+    box-shadow: cornsilk;
+}
+
+.Botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    transition: 3s ease all;
+}
+
+.Botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.Botao i{
+    margin-right: 10px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carousel-filme{
+    margin-top: 10px;
+}
+
+.subtitulo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: royalblue;
+    text-shadow: 2px 2px #ff0000;
+}
+
